@@ -23,3 +23,15 @@ $ truffle compile
 ```
 $ truffle migrate
 ```
+
+7. 확인(스마트 컨트랙트와 상호작용)
+
+```
+$ truffle console
+
+$ Lottery.deployed().then(function(instance){ lot=instance })
+$ lot.abi
+$ lot.owner()
+$ lot.getSomeValue()
+...
+```
