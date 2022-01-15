@@ -1,0 +1,131 @@
+{
+  "contractName": "Lottery",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Lottery.sol\":\"Lottery\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Lottery.sol\":{\"keccak256\":\"0x2acecad22696ffc524193ed44f744cc783b06652b47d91a6a2c6c11f6009c404\",\"urls\":[\"bzz-raw://dfeaaa315e7fd3df8db187e4d0d0e65b6f0dd9fd3de02591efb49e942b62fe48\",\"dweb:/ipfs/QmRJyj9we14f6xXFzTwxDXbHhfqiDZVWzg6bmSEmHsJuVk\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212206542b9abfb86b00e1ddce1eb4d4ef39f94362df9e64f7b1ce07d216a3e640f4864736f6c634300080a0033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212206542b9abfb86b00e1ddce1eb4d4ef39f94362df9e64f7b1ce07d216a3e640f4864736f6c634300080a0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "34:23:0:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "34:23:0:-:0;;;;;",
+  "source": "pragma solidity >=0.4.22 <0.9.0;\n\ncontract Lottery {\n  \n}\n",
+  "sourcePath": "C:\\Users\\ygaso\\workspace\\lottery-dapp\\contracts\\Lottery.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Lottery.sol",
+    "exportedSymbols": {
+      "Lottery": [
+        2
+      ]
+    },
+    "id": 3,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Lottery",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "Lottery",
+        "nameLocation": "43:7:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "34:23:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "0:58:0"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/Lottery.sol",
+    "exportedSymbols": {
+      "Lottery": [
+        2
+      ]
+    },
+    "id": 3,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Lottery",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "Lottery",
+        "nameLocation": "43:7:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "34:23:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "0:58:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.10+commit.fc410830.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xd339b5464Cb52143191804cFDE2f61B5c75af3A8",
+      "transactionHash": "0x4d32357075dfbdd309e6729d2e20b32bf5331675b7ecd33973e370fe3de6a6c3"
+    }
+  },
+  "schemaVersion": "3.4.4",
+  "updatedAt": "2022-01-15T07:10:17.063Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

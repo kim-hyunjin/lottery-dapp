@@ -1,0 +1,25 @@
+# Truffle로 Dapp 만들기
+
+## How to
+
+1. 프로젝트 초기설정
+
+```
+$ truffle init
+```
+
+2. contracts 폴더에 contract 작성
+
+3. 컴파일
+
+```
+$ truffle compile
+```
+
+4. migrations 폴더에 migrate를 위한 js 파일 작성
+5. truffle-config.js에 network 정보 설정
+6. migrate
+
+```
+$ truffle migrate
+```
