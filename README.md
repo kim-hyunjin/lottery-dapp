@@ -35,3 +35,11 @@ $ lot.owner()
 $ lot.getSomeValue()
 ...
 ```
+
+## 테스트 하기
+
+test/ 폴더 밑에 test를 위한 js파일 생성
+
+```
+$ truffle test
+```
