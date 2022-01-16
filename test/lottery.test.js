@@ -39,4 +39,26 @@ contract("Lottery", function ([deployer, user1, user2]) {
             await expectEvent(receipt.logs, "BET");
         });
     });
+
+    describe("isMatch test", function () {
+        const blockHash = "0xae906e3732be528ee07cdeb69e4d5834a3c72936138a4b26cf4c6478c89e71e7";
+
+        it("should be BettingResult.Win when two characters match", async () => {
+            const matchingResult = await lottery.isMatch("0xae", blockHash);
+            assert.equal(matchingResult, 0);
+        });
+
+        it("should be BettingResult.Fail when two characters no match", async () => {
+            const matchingResult = await lottery.isMatch("0xcc", blockHash);
+            assert.equal(matchingResult, 1);
+        });
+
+        it("should be BettingResult.Draw when one character match", async () => {
+            let matchingResult = await lottery.isMatch("0xab", blockHash);
+            assert.equal(matchingResult, 2);
+
+            matchingResult = await lottery.isMatch("0xbe", blockHash);
+            assert.equal(matchingResult, 2);
+        });
+    });
 });
